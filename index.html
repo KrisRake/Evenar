@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>EVENAR</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="app\public\eventbrite.jpg" />
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			font-family: 'poppins', sans-serif;
+			box-sizing: border-box;
+		}
+		.hero {
+			background: #1d2026;
+			min-height: 100vh;
+			width: 100%;
+			color: #fFf;
+			position: relatives
+		}
+
+		nav {
+			display: flex;
+			align-items: center;
+			padding: 25px 8%;
+		}
+
+		nav h1 {
+			font-size: 80px;
+			color: darkgoldenrod;
+		}
+
+		nav ul {
+			flex: 1;
+			text-align: right;
+		}
+
+		nav ul li {
+			display: inline-block;
+			list-style: none;
+			margin: 0px 80px;
+		}
+
+		nav ul li a {
+			text-decoration: none;
+			color: darkgray;
+			font-size: 20px;	
+		}
+
+		.button-box {
+			display: inline-block;
+			align-items: center;
+			text-align: center;
+			margin: 20% 30%;
+		}
+
+		.button-box a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.add {
+			background-color: #6781e0;
+			border-radius: 20px;
+			font-size: 30px;
+			border: none;
+			padding: 5px 35px;
+			margin: 15px 0;
+			color: white;
+		}
+
+		.join {
+			font-size: 30px;
+			border-radius: 20px;
+			border: none;
+			color: white;
+			background-color: darkgoldenrod;
+			padding: 5px 20px;
+		}
+
+		.section1 {
+			float: right;
+			margin: 20px 40px;
+			text-align: center;
+		}
+
+		.section1 h2 {
+			color: darkgoldenrod;
+			padding-bottom: 20px;
+		}
+
+		.section1 p {
+			font-size: 17px;
+		}
+
+		.section2 {
+			display: inline-block;
+			margin: 5px 40px;
+			text-align: center;
+		}
+
+		.section2 h2 {
+			color: darkgoldenrod;
+			padding-bottom: 20px;
+		}
+		
+		.section2 p {
+			font-size: 17px;
+		}
+
+		footer {
+			background: #1d2026;
+		}
+	</style>
+</head>
+<body>
+	<div class="hero">
+		<nav>
+			<h1>EVENAR</h1>
+			<ul>
+				<li><a href="http://localhost:8012/Evenar">Home</a></li>
+				<li><a href="#">Commands</a></li>
+			</ul>
+		</nav>
+
+		<div class="container">
+			<div class="button-box">
+				<button class="btn add"><i class="fab fa-discord"></i><b><a href="https://discord.com/oauth2/authorize?client_id=458276816071950337&permissions=1133584&scope=bot"">  Add to the server</a></b></button>
+				<button class="btn join"><i class="far fa-comments"></i><b><a href="">  Join support server</a></b></button>
+			</div>
+		</div>
+		<section>
+			<div class="section1">
+				<div class="text1">
+					<h2>EVENT CREATION</h2>
+					<P>Create events and never again forget to work meeting or homework</P>
+					<p>With $remind command you can make a new reminder</p>
+					<p>Simply type $remind "name of reminder" and time</p>
+				</div>
+			</div>
+			<br>
+			<div class="section2">
+				<div class="text2">
+					<h2>TIME</h2>
+					<p>If you ever forget what time it is right now fear not, because Evenar has your back</p>
+					<p>With $time command you can check your time</p>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer>
+
+	</footer>
+</body>
+
+</html>
